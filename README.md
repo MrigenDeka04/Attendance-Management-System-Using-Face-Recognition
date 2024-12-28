@@ -1,5 +1,5 @@
 # Face-Recognition-Attendance-Management-System
-Attendance Management System based on Face Recognition using Python  and OpenCv  
+Attendance Management System based on Face Recognition using Python and OpenCv  
 
 ### Overview
 <img src="https://github.com/user-attachments/assets/30971c35-7649-4dbe-a339-89849bb68040">
@@ -9,7 +9,7 @@ Attendance Management System based on Face Recognition using Python  and OpenCv
 - Tkinter(Available in python)
 - PIL (`pip install Pillow`)
 - Pandas(`pip install pandas`)
-- 
+
 
 ### Project Structure
 
@@ -31,7 +31,7 @@ Attendance Management System based on Face Recognition using Python  and OpenCv
 <img src="https://github.com/user-attachments/assets/ac02ec86-7916-4bcd-935a-7bc0e70e60ce">
 
 ### When it Recognises me
-<img src="https://github.com/user-attachments/assets/e0d18b54-fa81-4e41-9d32-297f0c845e3c">
+<img src="https://github.com/user-attachments/assets/2565e65b-2f43-4a02-8de8-4d9d91cbd541">
 
 ### Generated Excel file
 <img src="https://github.com/user-attachments/assets/04584dc8-2ca5-46a6-addf-e1087aa3c3d1">
