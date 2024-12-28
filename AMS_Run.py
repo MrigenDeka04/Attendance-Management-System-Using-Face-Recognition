@@ -165,7 +165,7 @@ def manually_fill():
             def create_csv():
                 import csv
                 cursor.execute("select * from " + DB_table_name + ";")
-                csv_name = 'E:\Face-Recognition-Attendance-System-main Girl\Face-Recognition-Attendance-System-main\StudentDetails/'+DB_table_name+'.csv'
+                csv_name = 'E:\Face-Recognition-Attendance-System\Face-Recognition-Attendance-System-main\StudentDetails/'+DB_table_name+'.csv'
                 with open(csv_name, "w") as csv_file:
                     csv_writer = csv.writer(csv_file)
                     csv_writer.writerow(
@@ -221,7 +221,7 @@ def manually_fill():
             def attf():
                 import subprocess
                 subprocess.Popen(
-                    r'explorer /select,"E:/Face-Recognition-Attendance-System-main Girl/Face-Recognition-Attendance-System-main/StudentDetails/-------Check atttendance-------"')
+                    r'explorer /select,"E:/Face-Recognition-Attendance-System/Face-Recognition-Attendance-System-main/StudentDetails/-------Check atttendance-------"')
 
             attf = tk.Button(MFW,  text="Check Sheets", command=attf, fg="white", bg="black",
                              width=12, height=1, activebackground="white", font=('times', 14, ' bold '))
@@ -336,7 +336,7 @@ def take_img():
             Date = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d')
             Time = datetime.datetime.fromtimestamp(ts).strftime('%H:%M:%S')
             row = [Enrollment, Name, Date, Time]
-            with open('E://Face-Recognition-Attendance-System-main Girl//Face-Recognition-Attendance-System-main//StudentDetails.csv', 'a+') as csvFile:
+            with open('E://Face-Recognition-Attendance-System//Face-Recognition-Attendance-System-main//StudentDetails.csv', 'a+') as csvFile:
                 writer = csv.writer(csvFile, delimiter=',')
                 writer.writerow(row)
                 csvFile.close()
@@ -485,7 +485,7 @@ def subjectchoose():
                 root = tkinter.Tk()
                 root.title("Attendance of " + Subject)
                 root.configure(background='grey80')
-                cs = 'E:/Face-Recognition-Attendance-System-main Girl/Face-Recognition-Attendance-System-main/StudentDetails/' + fileName
+                cs = 'E:/Face-Recognition-Attendance-System/Face-Recognition-Attendance-System-main/StudentDetails/' + fileName
                 with open(cs, newline="") as file:
                     reader = csv.reader(file)
                     r = 0
@@ -514,7 +514,7 @@ def subjectchoose():
     def Attf():
         import subprocess
         subprocess.Popen(
-            r'explorer /select,"E:/Face-Recognition-Attendance-System-main Girl/Face-Recognition-Attendance-System-main/-------Check atttendance-------"')
+            r'explorer /select,"E:/Face-Recognition-Attendance-System/Face-Recognition-Attendance-System-main/-------Check atttendance-------"')
 
     attf = tk.Button(windo,  text="Check Sheets", command=Attf, fg="white", bg="black",
                      width=12, height=1, activebackground="white", font=('times', 14, ' bold '))
@@ -545,8 +545,8 @@ def admin_panel():
         username = un_entr.get()
         password = pw_entr.get()
 
-        if username == 'pragya':
-            if password == 'pragya123':
+        if username == 'Agent':
+            if password == 'Agent98':
                 win.destroy()
                 import csv
                 import tkinter
@@ -554,7 +554,7 @@ def admin_panel():
                 root.title("Student Details")
                 root.configure(background='grey80')
 
-                cs = 'E:/Face-Recognition-Attendance-System-main Girl/Face-Recognition-Attendance-System-main/StudentDetails/StudentDetails.csv'
+                cs = 'E:/Face-Recognition-Attendance-System/Face-Recognition-Attendance-System-main/StudentDetails/StudentDetails.csv'
                 with open(cs, newline="") as file:
                     reader = csv.reader(file)
                     r = 0
