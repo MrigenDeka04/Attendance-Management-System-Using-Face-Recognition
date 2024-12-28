@@ -27,15 +27,17 @@ Attendance Management System based on Face Recognition using Python and OpenCv
 ### User Interface
 <img src="https://github.com/user-attachments/assets/e586ab0f-60b0-4644-ad77-dd6d16434eb5">
 
+### Model is taking images in background(Training)
+<img src="https://github.com/user-attachments/assets/62f850b9-c680-4908-aea0-bde13b6d9f91">
+
 ### Model is trained
-<img src="https://github.com/user-attachments/assets/ac02ec86-7916-4bcd-935a-7bc0e70e60ce">
+<img src="https://github.com/user-attachments/assets/62e878db-927b-4fed-92f2-c8ab8d692290">
 
 ### When it Recognises me
-<img src="https://github.com/user-attachments/assets/2565e65b-2f43-4a02-8de8-4d9d91cbd541">
+<img src="https://github.com/user-attachments/assets/48acabf4-9288-42f3-8405-15e6a438663b">
 
 ### Generated Excel file
 <img src="https://github.com/user-attachments/assets/04584dc8-2ca5-46a6-addf-e1087aa3c3d1">
-
 
 
 
